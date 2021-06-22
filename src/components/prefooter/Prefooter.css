@@ -1,0 +1,30 @@
+.prefooter{
+	background: url(./prefooter.png);
+	background-size: cover;
+	width: 100%;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.prefooter h5{
+	text-align: center;
+}
+.redes{
+	font-family: 'Montserrat', sans-serif;
+}
+.redes img{
+	max-width: 50px;
+	
+}
+.pagos img{
+	max-width: 321px;
+	}
+.politicas a{
+	font-family: 'Montserrat';
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	letter-spacing: -1px;
+	font-size: 20px;
+
+}

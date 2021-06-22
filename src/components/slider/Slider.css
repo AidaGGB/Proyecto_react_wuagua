@@ -1,0 +1,12 @@
+.carrusel{
+	background: url(./carrusel.png);
+	background-size: cover;
+	padding: 30px;
+}
+.carousel-inner{
+	margin: auto;
+}
+
+.carousel-inner img{
+	border-radius: 10px;
+}

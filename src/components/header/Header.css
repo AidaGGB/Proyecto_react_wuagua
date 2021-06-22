@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face{
+	font-family:"chewy"; 
+	src:url("../fonts/Chewy.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+nav{
+	background: url(./nav.png);
+	width: 100%;
+	padding-bottom: 50px;
+}
+.buscareinicio{
+	margin-right: 15px;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.buscar img{
+	padding-right: 10px;
+	max-width: 55px;
+}
+
+.logo{
+	text-align: center;
+	font-family:"chewy";
+	color:#4E4F51;
+	}
+
+.logo img{
+	max-width:450px;
+	width: 100%;
+}
+
+ .logo h5{
+ 	text-align: center;
+  	font-size: 25px;
+ }
+
+.botonesprincipal{
+	text-align: center;
+	}
+
+.btn-secondary{
+	margin-top: 15px;
+	background-color: #b8f2e6;
+	font-family:"chewy";
+	min-width:200px;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size:22px; 
+	border-radius: 10px;
+	box-shadow: 3px 2px #4E4F51;
+}
+
+.btn-danger{
+	margin-top: 5px;
+	background-color: #FFA299;
+	font-family:"chewy";
+	width: 200px;
+	height: 45px;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size: 20px; 
+	border-radius: 10px;
+	box-shadow: 3px 2px #4E4F51;
+	border: none;
+	
+}
+.btn-danger:hover{
+	background-color: #4E4F51;
+	border: 2px solid #4E4F51;
+}
+/* reboot del submenu, no modificar*/
+ol,
+ul {
+  padding-left: 0.2rem;
+}
+

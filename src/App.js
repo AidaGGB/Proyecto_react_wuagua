@@ -5,6 +5,7 @@ import Formulario from './pages/formulario/Formulario';
 import Nineras from './pages/nineras/Nineras';
 import Home from './pages/home/Home';
 import Error from './pages/error/Error';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,9 +16,9 @@ import {
 function App() {
   return (
     <div>
-      <Router>
-        <div>
-          <Switch>
+      
+     <Router>
+        <Switch>
             <Route path='/formulario'sensitive>
               <Formulario/>
             </Route>
@@ -30,12 +31,15 @@ function App() {
               <Home/>
             </Route>
 
+            <Route exact path='/home'>
+              <Home/>
+            </Route>
+
             <Route path='*'>
               <Error/>
             </Route>
 
           </Switch>
-        </div>
       </Router>
       
     </div>

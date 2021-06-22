@@ -1,0 +1,33 @@
+.elegirnos:hover{
+	color: rgb(184, 242, 230);
+	text-shadow: 2px 2px 5px #000000;
+	font-size: 33px;
+}
+
+.conocenos{
+	padding: 30px 0px;
+	background: url(./conocenos.png);
+	background-size: cover;	
+	
+}
+
+.conocenos h1{
+	font-family:"chewy";
+	color:#4E4F51;
+	text-align: center;
+
+}
+.conocenos img{
+	border-radius: 100%;
+	max-width: 200px;
+}
+.iconosconocenos{
+	margin-top: 20px;
+	text-align: center;
+}
+.iconosconocenos a{
+	font-family:"chewy";
+	text-decoration: none;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size:30px;
+}

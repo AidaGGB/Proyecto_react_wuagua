@@ -1,0 +1,97 @@
+
+.container2{
+	background-image: url(./nav.png);
+	background-size: cover;
+	padding: 20px;
+}
+
+logo2{
+	text-align: left;
+	font-family:"chewy";
+	color:#4E4F51;
+	}
+
+.logo2 img{
+	max-width: 150px;
+	width: 100%;
+}
+
+ .logo2 h5{
+ 	
+  	font-size: 14px;
+ }
+
+ .home img{
+	width: 70px;
+	opacity: 0.6;
+}
+
+
+.card{
+    width: 25rem;
+	margin: 20px auto;
+	text-align: center;
+	font-family: 'Montserrat';
+	background-color: rgba(255,255,255,0.3);
+	box-shadow: 3px 3px 7px #4E4F51;
+	border-radius: 10px;
+	border: 1px solid #4E4F51;
+	}
+
+#ingreso img{
+	width: 200px;
+	text-align: center;
+}
+
+#ingreso h5{
+	font-size: 12px;
+	text-align: center;
+	font-family:"chewy";
+	color: #4E4F51;
+	margin-bottom: 30px;
+
+}
+
+
+#ingreso h4{
+
+	font-size: 13px;
+}
+#ingreso a{
+	font-size: 14px;
+}
+
+
+#ingreso input[type=text], input[type=password], input[type=email],select{
+	text-align: left;
+	width: 100%;
+	vertical-align: middle;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 10px 0;
+	resize: none;
+	border: 1px solid #4E4F51;
+	
+}
+
+.btn-primary{
+	background-color: #B8F2E6;
+	margin-top: 5px;
+	font-family:"chewy";
+	height: 45px;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size: 20px; 
+	border-radius: 10px;
+	box-shadow: 3px 2px #4E4F51;
+	border: none;
+}
+
+.btn-primary:hover{
+	background-color: #FFA299;
+	border: 2px solid #FFA299;
+}
+.ncuenta{
+	text-align: center;
+}
+
