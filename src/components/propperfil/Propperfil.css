@@ -1,0 +1,30 @@
+.container8{
+    background-image: url(./conocenos.png);
+    background-repeat: no-repeat;
+}
+
+.padres{	
+	padding: 20px;
+}
+
+
+.logo2{
+	text-align: left;
+	font-family:"chewy";
+	color:#4E4F51;
+	}
+
+.logo2 img{
+	max-width: 150px;
+	width: 100%;
+}
+
+ .logo2 h5{
+ 	
+  	font-size: 14px;
+ }
+
+ .home img{
+	width: 70px;
+	opacity: 0.6;
+}

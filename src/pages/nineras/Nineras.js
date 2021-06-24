@@ -1,4 +1,4 @@
-import Perfil from '../../components/perfil/Perfil';
+import Propperfil from '../../components/propperfil/Propperfil';
 
 
 
@@ -6,7 +6,7 @@ import Perfil from '../../components/perfil/Perfil';
 function Nineras () {
     return (
       <div>
-        <Perfil />
+        <Propperfil />
               
       </div>
     );

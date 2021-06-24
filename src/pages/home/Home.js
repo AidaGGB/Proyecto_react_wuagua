@@ -1,7 +1,7 @@
 import Header from '../../components/header/Header';
 import Slider from '../../components/slider/Slider';
-import Conocenos from '../../components/conocenos/Conocenos';
-import Confiables from '../../components/confiables/Confiables';
+import Propconocenos from '../../components/propconocenos/Propconocenos';
+import Propconfiables from '../../components/propconfiables/Propconfiables';
 import Prefooter from '../../components/prefooter/Prefooter';
 import Footer from '../../components/footer/Footer';
 
@@ -10,8 +10,8 @@ function Home () {
       <div>
         <Header/>
         <Slider/>
-        <Conocenos/>
-        <Confiables/>
+        <Propconocenos/>
+        <Propconfiables/>
         <Prefooter/>
         <Footer/>
             
