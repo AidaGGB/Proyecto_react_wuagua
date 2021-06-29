@@ -1,15 +1,53 @@
 import './Conocenos.css';
+import Melegirnos from './Melegirnos';
+import Mfuncionamos from './Mfuncionamos';
+import Mnineras from './Mnineras';
+import nino from './ninojugando.jpg';
+import hermanos from './hermanos.jpg';
+import ninera from './ninera.jpg';
 
 
-function Conocenos (props) {
+
+
+function Conocenos () {
     return (
-    	    <div className="cajac">
-				<img src={props.imgcon} className="img-fluid"/><br></br><br></br>
+      <div>
+          <section className="conocenos">
 				<div>
-					<a href="" className="elegirnos" data-bs-toggle="modal" data-bs-target="#elegirnos">{props.titcon}</a>
+					<h1>¡Conócenos!</h1>
 				</div>
-			</div>
-	    
+
+				
+				<div className="iconosconocenos row">
+					
+					<div className="cajac col-sm-12 col-lg-4">
+						<img src={nino} className="img-fluid"/><br></br><br></br>
+					  <div>
+					   	<a href="" className="elegirnos" data-bs-toggle="modal" data-bs-target="#elegirnos">¿Por qué elegirnos?</a>
+					   </div>
+				    </div>
+
+				    <div className="cajac col-sm-12 col-lg-4">
+					    <img src={hermanos} className="img-fluid"/><br></br><br></br>
+					    <div>
+					      <a href="" className="elegirnos" data-bs-toggle="modal" data-bs-target="#funcionamos">¿Cómo Funcionamos?</a>
+					     </div>
+				    </div>
+
+				   <div className="cajac col-sm-12 col-lg-4">
+					   <img src={ninera} className="img-fluid"/><br></br><br></br>
+					   <div>
+					   	<a href="" className="elegirnos" data-bs-toggle="modal" data-bs-target="#nineras">Nuestras Niñeras</a>
+					</div>
+				   </div>
+
+				</div>
+				
+			</section>
+		<Melegirnos/>
+		<Mfuncionamos/>
+		<Mnineras/>
+      </div>
     );
   }
   

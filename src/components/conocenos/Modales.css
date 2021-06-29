@@ -1,0 +1,60 @@
+.modal-content{
+	background-image: url(./fondomodal1.jpg);
+	background-size: cover;
+	padding: 35px;
+	align-items: center;
+	
+}
+
+.modal-header{
+	text-align: center;
+}
+
+
+.modal-body{
+	max-width: 780px;
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.wuagua{
+	color: #4E4F51;
+	font-family: 'chewy';
+	letter-spacing: 2px;
+	font-size: 25px;
+}
+
+.modal-body h2{
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.btn-secondary2{
+	margin-top: 15px;
+	background-color: #FFA299;
+	font-family:"chewy";
+	min-width:200px;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+	font-size:22px; 
+	border-radius: 10px;
+	box-shadow: 3px 2px #4E4F51;
+}
+
+.btn-secondary2:hover{
+	background-color: #B8F2E6;
+	color:#4E4F51; /*NUEVO COLOR DE GRIS*/
+}
+
+.funcionamos i{
+		color: black;
+}
+
+.funcionamos p{
+	padding: 0px;
+	}

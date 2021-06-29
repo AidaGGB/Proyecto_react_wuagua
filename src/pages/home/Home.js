@@ -1,6 +1,6 @@
 import Header from '../../components/header/Header';
 import Slider from '../../components/slider/Slider';
-import Propconocenos from '../../components/propconocenos/Propconocenos';
+import Conocenos from '../../components/conocenos/Conocenos';
 import Propconfiables from '../../components/propconfiables/Propconfiables';
 import Prefooter from '../../components/prefooter/Prefooter';
 import Footer from '../../components/footer/Footer';
@@ -10,11 +10,10 @@ function Home () {
       <div>
         <Header/>
         <Slider/>
-        <Propconocenos/>
+        <Conocenos/>
         <Propconfiables/>
         <Prefooter/>
         <Footer/>
-            
       </div>
     );
   }
