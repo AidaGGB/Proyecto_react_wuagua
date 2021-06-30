@@ -58,3 +58,7 @@
 .funcionamos p{
 	padding: 0px;
 	}
+
+.modal-backdrop{
+	display: none;
+}

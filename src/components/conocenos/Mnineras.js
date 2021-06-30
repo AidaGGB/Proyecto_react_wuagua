@@ -1,9 +1,20 @@
 import './Modales.css';
+import React, { useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Link,
+  NavLink,
+  withRouter
+} from "react-router-dom";
+
 
 
 function Mnineras () {
+	const redirect= () => {
+		window.location.replace("/nineras")
+	}
     return (
-        <div className="modal" tabindex={-1} id="nineras">
+        <div className="modal" tabIndex={-1} id="nineras">
 			  <div className="modal-dialog modal-dialog-centered modal-fullscreen">
 			    <div className="modal-content">
 			      <div className="modal-header">
@@ -24,7 +35,9 @@ function Mnineras () {
 				      </div>
 			      	<div className="modal-footer">
 			        <button type="button" className="btn btn-secondary2" data-bs-dismiss="modal">Close</button>
-			       <a href="conocenineras.html" role="button" className="btn btn-secondary2">Conoce las niñeras</a>
+					<div>
+						<button type="button" className="btn btn-secondary2" onClick={redirect} >Conoce las niñeras</button>
+					</div>
 				  </div>
 			    </div>
 			  </div>
