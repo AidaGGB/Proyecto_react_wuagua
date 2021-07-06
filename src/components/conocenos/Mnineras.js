@@ -11,7 +11,7 @@ import {
 
 function Mnineras () {
 	const redirect= () => {
-		window.location.replace("Proyecto_react_wuagua/nineras")
+		window.location.replace("/nineras")
 	}
     return (
         <div className="modal" tabIndex={-1} id="nineras">
