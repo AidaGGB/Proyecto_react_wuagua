@@ -45,7 +45,7 @@ function Login () {
                                         <div className="feedback"></div>
                                     </div>
 
-                                    <div className="d-grid gap-2"><input type="submit" value="Ingresar" className="btn btn-primary"/></div><br></br>
+                                    <div className="d-grid gap-2"><input type="submit" value="Ingresar" className="btn btn-primary" onClick={()=>{alert('Bienvenido')}}/></div><br></br>
 
                                     <div><a href="recordarc">¿Olvidaste tu contraseña?</a></div><br></br>
                                     
