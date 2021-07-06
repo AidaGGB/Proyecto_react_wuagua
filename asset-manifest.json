@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Proyecto_react_wuagua/static/css/main.6c1e20b4.chunk.css",
-    "main.js": "/Proyecto_react_wuagua/static/js/main.3603b9f2.chunk.js",
-    "main.js.map": "/Proyecto_react_wuagua/static/js/main.3603b9f2.chunk.js.map",
+    "main.js": "/Proyecto_react_wuagua/static/js/main.ba210d11.chunk.js",
+    "main.js.map": "/Proyecto_react_wuagua/static/js/main.ba210d11.chunk.js.map",
     "runtime-main.js": "/Proyecto_react_wuagua/static/js/runtime-main.976baec4.js",
     "runtime-main.js.map": "/Proyecto_react_wuagua/static/js/runtime-main.976baec4.js.map",
     "static/js/2.881f7915.chunk.js": "/Proyecto_react_wuagua/static/js/2.881f7915.chunk.js",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.976baec4.js",
     "static/js/2.881f7915.chunk.js",
     "static/css/main.6c1e20b4.chunk.css",
-    "static/js/main.3603b9f2.chunk.js"
+    "static/js/main.ba210d11.chunk.js"
   ]
 }
