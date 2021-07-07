@@ -10,9 +10,7 @@ import {
 
 
 function Mnineras () {
-	const redirect= () => {
-		window.location.replace("Proyecto_react_wuagua/nineras")
-	}
+	
     return (
         <div className="modal" tabIndex={-1} id="nineras">
 			  <div className="modal-dialog modal-dialog-centered modal-fullscreen">
@@ -36,7 +34,7 @@ function Mnineras () {
 			      	<div className="modal-footer">
 			        <button type="button" className="btn btn-secondary2" data-bs-dismiss="modal">Close</button>
 					<div>
-						<button type="button" className="btn btn-secondary2" onClick={redirect} >Conoce las niñeras</button>
+						<Link to="/nineras"><button type="button" className="btn btn-secondary2">Conoce las niñeras</button></Link>
 					</div>
 				  </div>
 			    </div>
