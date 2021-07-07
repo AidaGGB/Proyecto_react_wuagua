@@ -1,4 +1,4 @@
-<imgr src="logotipo2.png" />
+<img src="logotipo2.png" />
 
 
 Este proyecto se creó como requisito académico del programa TechPower de Kuepa
