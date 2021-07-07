@@ -1,4 +1,4 @@
-
+<imgr src="logotipo2.png" />
 
 
 Este proyecto se creó como requisito académico del programa TechPower de Kuepa
@@ -19,11 +19,11 @@ En este aplicativo se agregó el react-router "npm install react-router-dom" y l
 (https://github.com/AidaGGB/Proyecto_react_wuagua.git)
 
 Autores 
-Diana Viviana Garcia Fonseca
-Ingrid Tatiana Paba Guillen
-Yuly Marcela Beltrán Rodriguez
-Laura Yaneth Vargas Torres
-Aida Gineth Garzón Bejarano
+Diana Viviana Garcia Fonseca,   
+Ingrid Tatiana Paba Guillen,   
+Yuly Marcela Beltrán Rodriguez,    
+Laura Yaneth Vargas Torres,   
+Aida Gineth Garzón Bejarano.
 
 # Getting Started with Create React App
 
