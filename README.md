@@ -75,7 +75,7 @@ Es un aplicativo web que permite conectar padres y niñeras para cuidado de niñ
 
 Este aplicativo web se desarrollo utilizando HTML, Css, JavaScript, React, Bootstrap, diseño responsivo y la implementación de conocimiento relacionado con el manejo de diseño grafico, diseño Front-End y experiencia de usuario.
 
-<img src="../../components/conocenos.png"/>
+<img src="https://www.google.com/search?q=imagen&sxsrf=ALeKk01mAS2kUKYH0SXqjaRYrpyxyntxXQ:1625678390659&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj30Pn3u9HxAhVcSjABHbTnCiAQ_AUoAXoECAEQAw&biw=1366&bih=657#imgrc=SeJRlX3BnpP6JM"/>
 
 (https://wuagua.000webhostapp.com)
 (https://github.com/AidaGGB/Proyecto_react_wuagua.git)
