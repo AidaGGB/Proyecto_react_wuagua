@@ -46,6 +46,6 @@ function Mfuncionamos () {
 			</div>
     );
   }
-  
-  export default Mfuncionamos;
+
+   export default Mfuncionamos;
   

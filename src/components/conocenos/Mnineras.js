@@ -10,7 +10,9 @@ import {
 
 
 function Mnineras () {
-	
+	const redirect= () => {
+			$('#nineras').modal('hide');
+			}
     return (
         <div className="modal" tabIndex={-1} id="nineras">
 			  <div className="modal-dialog modal-dialog-centered modal-fullscreen">
@@ -34,7 +36,7 @@ function Mnineras () {
 			      	<div className="modal-footer">
 			        <button type="button" className="btn btn-secondary2" data-bs-dismiss="modal">Close</button>
 					<div>
-						<Link to="/nineras"><button type="button" className="btn btn-secondary2">Conoce las niñeras</button></Link>
+						<Link to="/nineras"><button type="button" className="btn btn-secondary2" onClick={redirect} >Conoce las niñeras</button></Link>
 					</div>
 				  </div>
 			    </div>
